@@ -9,7 +9,7 @@ from typing import Any, Dict, List, Optional
 
 from tqdm import tqdm
 
-from qa_extract.clients.vllm_client import chat_once
+from vllm_client import chat_once
 
 
 def load_json(path: Path) -> Any:
