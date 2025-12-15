@@ -1,0 +1,198 @@
+[
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "哪些方法可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是用于检测农药残留的方法之一。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "气相色谱-串联质谱法（GC-MS/MS）在农药残留检测中的应用是什么？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）用于检测农药残留，能够提供高灵敏度和准确性的结果。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "农药残留检测的目的是什么？",
+    "answer": "农药残留检测的目的是确保草药制剂中不含可能对人体健康有害的农药残留。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "农药残留检测的结果如何解读？",
+    "answer": "如果检测结果为未检出农药残留，则表明该制剂中没有农药残留，符合安全标准。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "农药残留检测的标准是什么？",
+    "answer": "农药残留检测的标准应符合世界卫生组织（WHO）和印度药典（API）的标准。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "哪些方法可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是用于检测农药残留的方法之一。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "气相色谱-串联质谱法（GC-MS/MS）在农药残留检测中的应用是什么？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是一种高灵敏度和高选择性的分析方法，常用于检测草药制剂中的农药残留。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "农药残留检测的目的是什么？",
+    "answer": "农药残留检测的目的是确保草药制剂中不含可能对人体健康造成危害的农药残留。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "农药残留检测结果如何影响草药制剂的安全性评估？",
+    "answer": "农药残留检测结果是评估草药制剂安全性的重要指标。如果检测结果显示没有农药残留或残留水平在可接受范围内，则表明该制剂是安全的。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "什么是可接受的农药残留水平？",
+    "answer": "可接受的农药残留水平是指在不影响人体健康的前提下，允许存在于草药制剂中的最大农药残留量。这些水平通常由国际标准机构如世界卫生组织（WHO）和美国药典（API）制定。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "什么是农药残留？",
+    "answer": "农药残留是指在草药或其他农产品中残留的农药成分。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "农药残留对草药制剂的安全性有何影响？",
+    "answer": "农药残留可能对草药制剂的安全性产生负面影响，导致健康风险，因此需要严格控制。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "如何检测草药制剂中的农药残留？",
+    "answer": "草药制剂中的农药残留通常通过气相色谱-串联质谱法（GC-MS/MS）等方法进行检测。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "哪些方法可以用于检测草药制剂中的重金属？",
+    "answer": "草药制剂中的重金属可以通过电感耦合等离子体质谱法（ICP-MS）等方法进行检测。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "检测草药制剂中的黄曲霉毒素有哪些常用方法？",
+    "answer": "草药制剂中的黄曲霉毒素通常通过液相色谱-串联质谱法（LC-MS/MS）等方法进行检测。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "草药制剂中的微生物污染如何检测？",
+    "answer": "草药制剂中的微生物污染通常通过标准微生物检测方法进行，包括总活菌计数和病原体检测。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "什么是WHO和API标准？",
+    "answer": "WHO和API标准是指世界卫生组织（WHO）和美国药典（API）制定的一系列标准，用于确保药品和草药制剂的质量和安全性。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "为什么需要对草药制剂进行严格的污染物检测？",
+    "answer": "对草药制剂进行严格的污染物检测是为了确保其安全性和有效性，避免因污染物引起的健康风险。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "农药残留的检测结果对草药制剂的临床应用有何意义？",
+    "answer": "农药残留的检测结果对草药制剂的临床应用具有重要意义，可以确保其安全性，支持其在临床前和临床试验中的使用。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "草药制剂中常见的农药残留有哪些？",
+    "answer": "草药制剂中常见的农药残留包括各种有机磷、有机氯和其他化学农药。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0004",
+    "header_path": "2 Materials and methods > 2.1 Chemicals, reagents and instruments",
+    "question": "哪些仪器可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱仪（GC-MS/MS）。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0004",
+    "header_path": "2 Materials and methods > 2.1 Chemicals, reagents and instruments",
+    "question": "农药残留检测的标准是什么？",
+    "answer": "论文中未提及具体的农药残留检测标准，但检测结果需符合WHO和API标准。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0004",
+    "header_path": "2 Materials and methods > 2.1 Chemicals, reagents and instruments",
+    "question": "农药残留检测的常见方法有哪些？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是常用的农药残留检测方法之一。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "哪些方法可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是用于检测农药残留的方法之一。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "气相色谱-串联质谱法（GC-MS/MS）在农药残留检测中的应用是什么？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）用于检测农药残留，能够提供高灵敏度和准确性的结果。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "农药残留检测的标准是什么？",
+    "answer": "农药残留检测的结果应符合WHO和API标准。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "农药残留检测的结果如何解读？",
+    "answer": "如果检测结果为未检出农药残留，则表明该制剂在农药残留方面是安全的。"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "农药残留检测在草药制剂中的重要性是什么？",
+    "answer": "农药残留检测在草药制剂中非常重要，因为它确保了制剂的安全性，避免了潜在的健康风险。"
+  }
+]

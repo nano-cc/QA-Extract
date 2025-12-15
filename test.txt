@@ -1,0 +1,31 @@
+你是一名有着50年经验的农药领域专家，你的任务总体上是从论文文本中抽取出有用的问答对，但是你需要按照如下要求完成任务，否则你将会被开除：
+1. 首先需要总结输入论文文本的内容
+2. 根据总结出论文文本的内容，判断是否有有价值的农药领域相关通用知识可以提取 
+**重要**：你需要仔细判断是否有有价值的知识可以提取，如果不是农药领域的有用知识你必须输出为空，然后不需要进行后续流程，有用的知识没输出或者
+输出的是无效知识都是不允许的
+3. 开始提取问题，你必须给出可以从论文文本中提取的关于农药领域的通用知识的问题，这一步可以提出最多10个问题
+**重要**：提取的问题应该具有通用性，尽可能独立于论文内容，不应该包括诸如：此研究、此论文等等类似的问题
+4. 依次对上面的问题进行仔细检查，如果不满足上面提到的要求需要去掉
+5. 对经过第4步过滤之后的问题依据论文文本的内容进行回答，要求使用给定内容中的事实，不要编造或补全缺失信息
+**重要**：不能编造问题与答案
+6. 输出答案，需要**严格按照下面的格式输出**(--------为分割线，不需要输出，但是需要保留<result></result>标签)
+--------
+<result>
+[
+    {
+        "question":"",
+        "answer":""   
+    },
+    {
+        "question":"",
+        "answer":""   
+    },
+]
+</result>
+--------
+**请严格遵照上面的要求，显示输出每个步骤你做的结果**，需要提取的内容如下：
+--------------- 
+{abstract_part}
+【标题路径】Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid 
+【正文片段】 # 1 Introduction\n\nHerbal medicines have earned a significant reputation throughout history and across cultures as primary and fundamental treatments for a wide range of health conditions. The origins of herbal medicine date back to the earliest days of human civilization, making it the oldest form of medical practice dedicated to promoting human well-being. Herbal medicine is a broad term encompassing a variety of treatments used alongside both conventional and alternative therapies. The approaches employed in herbal medicine are entirely distinct from those in modern conventional medicine. The historical roots of herbal medicine can be traced to ethnopharmacology, a term coined in 1967, which focuses on the scientific study of traditional medicinal plants [1]. Medicinal plants contain a variety of chemical compounds, including primary and secondary metabolites such as alkaloids, flavonoids, and phenols. These plants and their extracts are generally used as therapeutic agents. Over $5 0 \\%$ of drugs in the Western pharmacopoeia are either directly derived from herbs or developed through modifications of plant-based compounds [2]. The importance of traditional medicinal systems is underscored by recent studies showing that $7 5 \\mathrm { - } 9 0 \\%$ of people in developing countries rely on herbal medicines for primary healthcare and other medical needs [3, 4].\n\nUterine fibroids are common non-cancerous tumors that develop in or around the uterus, affecting many women of reproductive age [5]. Various genetic, biological, and hormonal factors contribute to the development and growth of fibroids, which are particularly prevalent among Black women [6, 7]. Pharmacological interventions for fibroids include long-term use of GnRH agonists, combined oral contraceptives, levonorgestrelreleasing intrauterine systems, selective progesterone receptor modulators, medroxyprogesterone acetate, and NSAIDs. While these treatments show promising long-term efficacy, their extensive side effects limit clinical use. Hysterectomy remains the most definitive management for leiomyoma, but it carries a higher risk of adverse outcomes. Consequently, there is a significant demand for alternatives to surgical intervention, particularly for women who wish to preserve fertility. Many patients with uterine fibroids are therefore turning to natural remedies and complementary and alternative medicine for safer treatment options [8]. Evaluating the effectiveness of these therapies is crucial.\n\nIn the Unani system of medicine, the treatment of fibroid uterus (Usool-e-Ilaj) emphasizes the use of drugs with anti-inflammatory, antitumor, and antioxidant properties [9]. Guided by these principles, a polyherbal formulation was designed, comprising Cinnamomum zeylanicum, Commiphora mukul, Bauhinia variegata, Cuscuta reflexa, Iris ensata, and Trigonella foenum-graecum. These plants were selected based on ethnopharmacological evidence for their antitumor, anti-inflammatory, antioxidant, and uterinemodulating effects [10, 11].\n\nDespite their therapeutic potential, herbal products may be contaminated with heavy metals, mycotoxins, pesticide residues, or microbial agents during cultivation, harvesting, processing, or storage. Such contaminants can compromise efficacy and pose serious health risks. Therefore, rigorous safety evaluation including chromatographic quantification of toxins, microbiological screening, and adherence to pharmacopoeial limits is essential to validate efficacy claims and ensure consumer protection.\n\n\n# 2 Materials and methods
+---------------
