@@ -59,17 +59,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate QA pairs with vLLM.")
     parser.add_argument(
         "--chunks",
-        default="output/chunks_english.json",
+        default="../output/chunks_english.json",
         help="Path to chunk JSON.",
     )
     parser.add_argument(
         "--abstracts",
-        default="output/abstracts_english_llm.json",
+        default="../output/abstracts_english_llm.json",
         help="Path to abstracts JSON.",
     )
     parser.add_argument(
         "--output",
-        default="output/qa_pairs_english_llm_test.json",
+        default="../output/qa_pairs_english_llm_test.json",
         help="Where to write QA pairs JSON.",
     )
     parser.add_argument(
