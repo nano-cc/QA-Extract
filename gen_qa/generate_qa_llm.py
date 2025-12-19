@@ -74,19 +74,19 @@ def main() -> None:
     )
     parser.add_argument(
         "--prompt-file",
-        default="prompt.txt",
+        default="promptv1.txt",
         help="Path to the prompt template text file.",
     )
     parser.add_argument(
         "--limit",
         type=int,
-        default=5,
+        default=-1,
         help="Number of chunks to process (<=0 means use all chunks).",
     )
     parser.add_argument("--host", default="http://219.216.98.15:8000/v1", help="vLLM server base URL.")
     parser.add_argument("--model", default="qwen2.5-72b-awq", help="Model name registered on the server.")
     parser.add_argument("--temperature", type=float, default=0.0, help="Sampling temperature.")
-    parser.add_argument("--max-tokens", type=int, default=12288, help="Max tokens to generate.")
+    parser.add_argument("--max-tokens", type=int, default=1800, help="Max tokens to generate.")
     args = parser.parse_args()
 
     chunks_path = Path(args.chunks)

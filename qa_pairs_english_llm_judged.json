@@ -1,0 +1,638 @@
+[
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "哪些方法可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是用于检测农药残留的方法之一。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "气相色谱-串联质谱法（GC-MS/MS）在农药残留检测中的应用是什么？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）用于检测农药残留，能够提供高灵敏度和准确性的结果。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性要求，没有使用指代词，且内容真实有意义。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性要求，没有使用指代词，且内容真实有意义。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "农药残留检测的目的是什么？",
+    "answer": "农药残留检测的目的是确保草药制剂中不含可能对人体健康有害的农药残留。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "农药残留检测的结果如何解读？",
+    "answer": "如果检测结果为未检出农药残留，则表明该制剂中没有农药残留，符合安全标准。",
+    "judge": {
+      "decision": "fix",
+      "reason": "问题过于泛化，需要具体化到某个场景或对象；答案缺少具体的检测方法和标准引用。",
+      "feedback": [
+        "将问题具体化到某个产品或场景，如'某种草药制剂的农药残留检测结果如何？'",
+        "在答案中加入具体的检测方法和标准，如'通过GC-MS/MS检测，结果显示...'"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms. Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards"
+        }
+      ],
+      "revised_qa": {
+        "question": "某种草药制剂的农药残留检测结果如何？",
+        "answer": "通过气相色谱-串联质谱法（GC-MS/MS）检测，结果显示该草药制剂中未检出农药残留，符合世界卫生组织（WHO）和美国药典（API）的标准。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"问题过于泛化，需要具体化到某个场景或对象；答案缺少具体的检测方法和标准引用。\",\n  \"feedback\": [\"将问题具体化到某个产品或场景，如'某种草药制剂的农药残留检测结果如何？'\", \"在答案中加入具体的检测方法和标准，如'通过GC-MS/MS检测，结果显示...'\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included...gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues...Results showed...no detectable pesticide residues...These findings align with WHO and API standards...\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"某种草药制剂的农药残留检测结果如何？\",\n    \"answer\": \"通过气相色谱-串联质谱法（GC-MS/MS）检测，结果显示该草药制剂中未检出农药残留，符合世界卫生组织（WHO）和美国药典（API）的标准。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0001",
+    "header_path": "Heavy metals, aflatoxins, pesticide residues and microbial load determination in designed polyherbal formulation used against uterine fibroid",
+    "question": "农药残留检测的标准是什么？",
+    "answer": "农药残留检测的标准应符合世界卫生组织（WHO）和印度药典（API）的标准。",
+    "judge": {
+      "decision": "fix",
+      "reason": "问题和答案都过于宽泛，需要具体化到农药残留检测的具体方法和标准值。",
+      "feedback": [
+        "具体化问题，明确检测方法和标准值。"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": {
+        "question": "农药残留检测使用哪些方法？",
+        "answer": "农药残留检测通常采用气相色谱-质谱联用法（GC-MS/MS），该方法能够准确检测出多种农药残留。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"问题和答案都过于宽泛，需要具体化到农药残留检测的具体方法和标准值。\",\n  \"feedback\": [\"具体化问题，明确检测方法和标准值。\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"农药残留检测使用哪些方法？\",\n    \"answer\": \"农药残留检测通常采用气相色谱-质谱联用法（GC-MS/MS），该方法能够准确检测出多种农药残留。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "哪些方法可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是用于检测农药残留的方法之一。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": false
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "气相色谱-串联质谱法（GC-MS/MS）在农药残留检测中的应用是什么？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是一种高灵敏度和高选择性的分析方法，常用于检测草药制剂中的农药残留。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": false
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "农药残留检测的目的是什么？",
+    "answer": "农药残留检测的目的是确保草药制剂中不含可能对人体健康造成危害的农药残留。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": false
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "农药残留检测结果如何影响草药制剂的安全性评估？",
+    "answer": "农药残留检测结果是评估草药制剂安全性的重要指标。如果检测结果显示没有农药残留或残留水平在可接受范围内，则表明该制剂是安全的。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": false
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0002",
+    "header_path": "Abstract",
+    "question": "什么是可接受的农药残留水平？",
+    "answer": "可接受的农药残留水平是指在不影响人体健康的前提下，允许存在于草药制剂中的最大农药残留量。这些水平通常由国际标准机构如世界卫生组织（WHO）和美国药典（API）制定。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": false
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "什么是农药残留？",
+    "answer": "农药残留是指在草药或其他农产品中残留的农药成分。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "农药残留对草药制剂的安全性有何影响？",
+    "answer": "农药残留可能对草药制剂的安全性产生负面影响，导致健康风险，因此需要严格控制。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms. Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms. Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens.\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "如何检测草药制剂中的农药残留？",
+    "answer": "草药制剂中的农药残留通常通过气相色谱-串联质谱法（GC-MS/MS）等方法进行检测。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且提供了具体的检测方法。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且提供了具体的检测方法。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "哪些方法可以用于检测草药制剂中的重金属？",
+    "answer": "草药制剂中的重金属可以通过电感耦合等离子体质谱法（ICP-MS）等方法进行检测。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且提供了具体的检测方法。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium)"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且提供了具体的检测方法。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium)\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "检测草药制剂中的黄曲霉毒素有哪些常用方法？",
+    "answer": "草药制剂中的黄曲霉毒素通常通过液相色谱-串联质谱法（LC-MS/MS）等方法进行检测。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且基于原文内容。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "草药制剂中的微生物污染如何检测？",
+    "answer": "草药制剂中的微生物污染通常通过标准微生物检测方法进行，包括总活菌计数和病原体检测。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案符合通用性和用户视角的真实性标准，且基于原文内容。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案符合通用性和用户视角的真实性标准，且基于原文内容。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "什么是WHO和API标准？",
+    "answer": "WHO和API标准是指世界卫生组织（WHO）和美国药典（API）制定的一系列标准，用于确保药品和草药制剂的质量和安全性。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都是通用性的，没有指代词，且内容准确。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都是通用性的，没有指代词，且内容准确。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management.\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "为什么需要对草药制剂进行严格的污染物检测？",
+    "answer": "对草药制剂进行严格的污染物检测是为了确保其安全性和有效性，避免因污染物引起的健康风险。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且没有使用指代词。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Growing global concerns about the safety of herbal formulations, however, demand rigorous evaluation for contaminants such as heavy metals, aflatoxins, pesticides, and microbial pathogens."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且没有使用指代词。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Growing global concerns about the safety of herbal formulations, however, demand rigorous evaluation for contaminants such as heavy metals, aflatoxins, pesticides, and microbial pathogens.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "农药残留的检测结果对草药制剂的临床应用有何意义？",
+    "answer": "农药残留的检测结果对草药制剂的临床应用具有重要意义，可以确保其安全性，支持其在临床前和临床试验中的使用。",
+    "judge": {
+      "decision": "fix",
+      "reason": "问题和答案需要更具体，避免指代词。",
+      "feedback": [
+        "将问题具体化，明确检测结果的具体影响。",
+        "答案应直接陈述科学事实，避免使用‘本研究’等指代词。"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management."
+        }
+      ],
+      "revised_qa": {
+        "question": "农药残留检测结果如何影响草药制剂的安全性和临床应用？",
+        "answer": "农药残留检测结果显示无农药残留，这确保了草药制剂的安全性，符合WHO和API标准，支持其在临床前和临床试验中的使用。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"问题和答案需要更具体，避免指代词。\",\n  \"feedback\": [\"将问题具体化，明确检测结果的具体影响。\", \"答案应直接陈述科学事实，避免使用‘本研究’等指代词。\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"农药残留检测结果如何影响草药制剂的安全性和临床应用？\",\n    \"answer\": \"农药残留检测结果显示无农药残留，这确保了草药制剂的安全性，符合WHO和API标准，支持其在临床前和临床试验中的使用。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0003",
+    "header_path": "1 Introduction",
+    "question": "草药制剂中常见的农药残留有哪些？",
+    "answer": "草药制剂中常见的农药残留包括各种有机磷、有机氯和其他化学农药。",
+    "judge": {
+      "decision": "fix",
+      "reason": "问题和答案虽然相关，但缺乏具体性和科学性。需要更精确地描述草药制剂中可能存在的农药类型，并提供具体的检测方法。",
+      "feedback": [
+        "增加具体农药名称和检测方法"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues"
+        }
+      ],
+      "revised_qa": {
+        "question": "草药制剂中可能存在的农药残留类型及其检测方法是什么？",
+        "answer": "草药制剂中可能存在的农药残留类型包括有机磷、有机氯等化学农药。这些农药残留通常通过气相色谱-串联质谱法（GC-MS/MS）进行检测。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"问题和答案虽然相关，但缺乏具体性和科学性。需要更精确地描述草药制剂中可能存在的农药类型，并提供具体的检测方法。\",\n  \"feedback\": [\"增加具体农药名称和检测方法\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"草药制剂中可能存在的农药残留类型及其检测方法是什么？\",\n    \"answer\": \"草药制剂中可能存在的农药残留类型包括有机磷、有机氯等化学农药。这些农药残留通常通过气相色谱-串联质谱法（GC-MS/MS）进行检测。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0004",
+    "header_path": "2 Materials and methods > 2.1 Chemicals, reagents and instruments",
+    "question": "哪些仪器可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱仪（GC-MS/MS）。",
+    "judge": {
+      "decision": "fix",
+      "reason": "答案过于简略，缺乏通用性和完整性。",
+      "feedback": [
+        "扩展答案，提供更全面的检测方法。"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": {
+        "question": "哪些仪器可以用于检测农药残留？",
+        "answer": "气相色谱-串联质谱仪（GC-MS/MS）是常用的检测农药残留的仪器之一。此外，液相色谱-串联质谱仪（LC-MS/MS）也可用于某些类型的农药残留检测。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"答案过于简略，缺乏通用性和完整性。\",\n  \"feedback\": [\"扩展答案，提供更全面的检测方法。\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"哪些仪器可以用于检测农药残留？\",\n    \"answer\": \"气相色谱-串联质谱仪（GC-MS/MS）是常用的检测农药残留的仪器之一。此外，液相色谱-串联质谱仪（LC-MS/MS）也可用于某些类型的农药残留检测。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0004",
+    "header_path": "2 Materials and methods > 2.1 Chemicals, reagents and instruments",
+    "question": "农药残留检测的标准是什么？",
+    "answer": "论文中未提及具体的农药残留检测标准，但检测结果需符合WHO和API标准。",
+    "judge": {
+      "decision": "fix",
+      "reason": "答案需要更具体地说明农药残留检测的标准，而不仅仅是提到符合WHO和API标准。",
+      "feedback": [
+        "提供更详细的农药残留检测标准，包括可能的具体指标或方法。"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": {
+        "question": "农药残留检测的方法和标准是什么？",
+        "answer": "农药残留检测通常采用气相色谱-质谱联用技术（GC-MS/MS），检测结果需符合世界卫生组织（WHO）和美国药典（API）的标准。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"答案需要更具体地说明农药残留检测的标准，而不仅仅是提到符合WHO和API标准。\",\n  \"feedback\": [\"提供更详细的农药残留检测标准，包括可能的具体指标或方法。\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"农药残留检测的方法和标准是什么？\",\n    \"answer\": \"农药残留检测通常采用气相色谱-质谱联用技术（GC-MS/MS），检测结果需符合世界卫生组织（WHO）和美国药典（API）的标准。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0004",
+    "header_path": "2 Materials and methods > 2.1 Chemicals, reagents and instruments",
+    "question": "农药残留检测的常见方法有哪些？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是常用的农药残留检测方法之一。",
+    "judge": {
+      "decision": "fix",
+      "reason": "答案过于简略，未涵盖所有常见方法。",
+      "feedback": [
+        "扩展答案，包括其他常见的农药残留检测方法。"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms."
+        }
+      ],
+      "revised_qa": {
+        "question": "农药残留检测的常见方法有哪些？",
+        "answer": "农药残留检测的常见方法包括气相色谱-串联质谱法（GC-MS/MS）、液相色谱-串联质谱法（LC-MS/MS）以及电感耦合等离子体质谱法（ICP-MS）。这些方法能够准确检测出多种农药残留，确保农产品的安全性。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"答案过于简略，未涵盖所有常见方法。\",\n  \"feedback\": [\"扩展答案，包括其他常见的农药残留检测方法。\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"农药残留检测的常见方法有哪些？\",\n    \"answer\": \"农药残留检测的常见方法包括气相色谱-串联质谱法（GC-MS/MS）、液相色谱-串联质谱法（LC-MS/MS）以及电感耦合等离子体质谱法（ICP-MS）。这些方法能够准确检测出多种农药残留，确保农产品的安全性。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "哪些方法可以用于检测农药残留？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）是用于检测农药残留的方法之一。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性的要求，没有使用指代词，且内容真实有意义。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "气相色谱-串联质谱法（GC-MS/MS）在农药残留检测中的应用是什么？",
+    "answer": "气相色谱-串联质谱法（GC-MS/MS）用于检测农药残留，能够提供高灵敏度和准确性的结果。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和事实准确性要求，没有使用指代词，且内容真实有意义。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues"
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和事实准确性要求，没有使用指代词，且内容真实有意义。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues\"}\n  ],\n  \"revised_qa\": null\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "农药残留检测的标准是什么？",
+    "answer": "农药残留检测的结果应符合WHO和API标准。",
+    "judge": {
+      "decision": "fix",
+      "reason": "答案过于简略，缺乏具体信息。",
+      "feedback": [
+        "提供更详细的检测标准，包括具体的检测方法和限值。"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms. Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management."
+        }
+      ],
+      "revised_qa": {
+        "question": "农药残留检测的具体标准和方法是什么？",
+        "answer": "农药残留检测通常采用气相色谱-串联质谱法（GC-MS/MS），结果需符合世界卫生组织（WHO）和美国药典（API）的标准。具体来说，农药残留水平应在可接受范围内，即检测不到或低于规定的最大残留限量。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"答案过于简略，缺乏具体信息。\",\n  \"feedback\": [\"提供更详细的检测标准，包括具体的检测方法和限值。\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms. Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety and supporting its suitability for preclinical and clinical evaluation in uterine fibroid management.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"农药残留检测的具体标准和方法是什么？\",\n    \"answer\": \"农药残留检测通常采用气相色谱-串联质谱法（GC-MS/MS），结果需符合世界卫生组织（WHO）和美国药典（API）的标准。具体来说，农药残留水平应在可接受范围内，即检测不到或低于规定的最大残留限量。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "农药残留检测的结果如何解读？",
+    "answer": "如果检测结果为未检出农药残留，则表明该制剂在农药残留方面是安全的。",
+    "judge": {
+      "decision": "fix",
+      "reason": "问题过于泛化，需要具体化到某个场景或对象；答案缺少具体的检测方法和标准。",
+      "feedback": [
+        "将问题具体化到某个产品或场景，如‘对于某种草药制剂，农药残留检测的结果如何解读？’",
+        "在答案中加入具体的检测方法和标准，如‘使用气相色谱-串联质谱法（GC-MS/MS）检测，结果显示未检出农药残留，符合WHO和API标准，表明该制剂在农药残留方面是安全的。’"
+      ],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Comprehensive screening included inductively coupled plasma mass spectrometry (ICP-MS) for heavy metals (arsenic, lead, mercury, cadmium), liquid chromatography–tandem mass spectrometry (LC-MS/MS) for aflatoxins, gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms. Results showed heavy metal and aflatoxin levels within acceptable limits, no detectable pesticide residues, and minimal microbial load with no pathogens. These findings align with WHO and API standards, confirming the formulation’s safety"
+        }
+      ],
+      "revised_qa": {
+        "question": "对于某种草药制剂，农药残留检测的结果如何解读？",
+        "answer": "使用气相色谱-串联质谱法（GC-MS/MS）检测，结果显示未检出农药残留，符合WHO和API标准，表明该制剂在农药残留方面是安全的。"
+      },
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"fix\",\n  \"reason\": \"问题过于泛化，需要具体化到某个场景或对象；答案缺少具体的检测方法和标准。\",\n  \"feedback\": [\"将问题具体化到某个产品或场景，如‘对于某种草药制剂，农药残留检测的结果如何解读？’\", \"在答案中加入具体的检测方法和标准，如‘使用气相色谱-串联质谱法（GC-MS/MS）检测，结果显示未检出农药残留，符合WHO和API标准，表明该制剂在农药残留方面是安全的。’\"],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Comprehensive screening included...gas chromatography–tandem mass spectrometry (GC-MS/MS) for pesticide residues, and standard microbial assays for total viable counts and pathogenic organisms. Results showed...no detectable pesticide residues...These findings align with WHO and API standards, confirming the formulation’s safety...\"}\n  ],\n  \"revised_qa\": {\n    \"question\": \"对于某种草药制剂，农药残留检测的结果如何解读？\",\n    \"answer\": \"使用气相色谱-串联质谱法（GC-MS/MS）检测，结果显示未检出农药残留，符合WHO和API标准，表明该制剂在农药残留方面是安全的。\"\n  }\n}\n</result>"
+  },
+  {
+    "source_file": "英文论文/2025-10-28_0001_s44371-025-00314-9.md",
+    "chunk_id": "chunk_0005",
+    "header_path": "2 Materials and methods > 2.2 Collection of plant material",
+    "question": "农药残留检测在草药制剂中的重要性是什么？",
+    "answer": "农药残留检测在草药制剂中非常重要，因为它确保了制剂的安全性，避免了潜在的健康风险。",
+    "judge": {
+      "decision": "pass",
+      "reason": "问题和答案都符合通用性和用户视角的真实性要求，且没有使用指代词。",
+      "feedback": [],
+      "evidence_spans": [
+        {
+          "chunk_id": "chunk_0002",
+          "quote": "Growing global concerns about the safety of herbal formulations, however, demand rigorous evaluation for contaminants such as heavy metals, aflatoxins, pesticides, and microbial pathogens."
+        }
+      ],
+      "revised_qa": null,
+      "evidence_outside_context": true
+    },
+    "judge_raw": "<result>\n{\n  \"decision\": \"pass\",\n  \"reason\": \"问题和答案都符合通用性和用户视角的真实性要求，且没有使用指代词。\",\n  \"feedback\": [],\n  \"evidence_spans\": [\n    {\"chunk_id\": \"\", \"quote\": \"Growing global concerns about the safety of herbal formulations, however, demand rigorous evaluation for contaminants such as heavy metals, aflatoxins, pesticides, and microbial pathogens.\"}\n  ],\n  \"revised_qa\": {\n    \"question\": null,\n    \"answer\": null\n  }\n}\n</result>"
+  }
+]
