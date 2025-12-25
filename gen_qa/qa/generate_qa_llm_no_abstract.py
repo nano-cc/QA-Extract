@@ -52,15 +52,16 @@ def parse_qa(json_text: str) -> List[Dict[str, str]]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate QA pairs with vLLM.")
+    parser = argparse.ArgumentParser(
+        description="Generate QA pairs with vLLM.")
     parser.add_argument(
         "--chunks",
-        default="/home/cong/data/projs/QA-Extract/output/英文论文.json",
+        default="output\英文专利.json",
         help="Path to chunk JSON.",
     )
     parser.add_argument(
         "--prompt-file",
-        default="/home/cong/data/projs/QA-Extract/gen_qa/qa/promptv1.txt",
+        default="gen_qa\qa\promptv1.txt",
         help="Path to the prompt template text file.",
     )
     parser.add_argument(
@@ -69,15 +70,21 @@ def main() -> None:
         default=-1,
         help="Number of chunks to process (<=0 means use all chunks).",
     )
-    parser.add_argument("--host", default="http://219.216.98.15:8000/v1", help="vLLM server base URL.")
-    parser.add_argument("--model", default="qwen2.5-72b-awq", help="Model name registered on the server.")
-    parser.add_argument("--temperature", type=float, default=0.0, help="Sampling temperature.")
-    parser.add_argument("--max-tokens", type=int, default=1800, help="Max tokens to generate.")
+    parser.add_argument(
+        "--host", default="http://219.216.98.15:8000/v1", help="vLLM server base URL.")
+    parser.add_argument("--model", default="qwen2.5-72b-awq",
+                        help="Model name registered on the server.")
+    parser.add_argument("--temperature", type=float,
+                        default=0.0, help="Sampling temperature.")
+    parser.add_argument("--max-tokens", type=int,
+                        default=1800, help="Max tokens to generate.")
     args = parser.parse_args()
 
     chunks_path = Path(args.chunks)
-    output_path = chunks_path.with_name(f"{chunks_path.stem}_llm{chunks_path.suffix}")
-    responses_path = chunks_path.with_name(f"{chunks_path.stem}_res{chunks_path.suffix}")
+    output_path = chunks_path.with_name(
+        f"{chunks_path.stem}_llm{chunks_path.suffix}")
+    responses_path = chunks_path.with_name(
+        f"{chunks_path.stem}_res{chunks_path.suffix}")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     responses_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -121,9 +128,12 @@ def main() -> None:
         produced = len(results) - count_before
         pbar.set_postfix({"qa_total": len(results), "qa_added": produced})
 
-    responses_path.write_text(json.dumps(raw_responses, ensure_ascii=False, indent=2), encoding="utf-8")
-    output_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Generated {len(results)} QA items from {len(chunks)} chunks -> {output_path}")
+    responses_path.write_text(json.dumps(
+        raw_responses, ensure_ascii=False, indent=2), encoding="utf-8")
+    output_path.write_text(json.dumps(
+        results, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(
+        f"Generated {len(results)} QA items from {len(chunks)} chunks -> {output_path}")
 
 
 if __name__ == "__main__":
