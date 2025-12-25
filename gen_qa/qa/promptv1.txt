@@ -4,8 +4,7 @@
 
 ## 输入
 输入由以下区域组成（占位符将被真实文本替换）：
-- 摘要片段：{abstract_part}
-- 标题路径：{chunk.get('header_path','')}
+
 - 正文片段：{chunk['content']}
 
 ---
